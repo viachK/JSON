@@ -1,1 +1,17 @@
-
+{
+    "Bug_id": "12345",
+    "Tit1e": "Missing white lines on widgets",
+    "Severity": "Moderate",
+    "Priority": "Medium",
+    "Environment": "Xiaomi Redmi 8A, MIUI Global 12.5.2, 10 QKQ1.191014.001",
+    "Precondition": "Desktop grid 5x5, font size Medium, zoom Medium",
+    "STR": [
+        {
+            "01": "Add 5 widgets",
+            "02": "Arrange widgets as in the attachment"
+        }
+    ],
+    "AR": "Square widget on the left has a missing white bottom line. The longest widget on the right has a missing white bottom line",
+    "ER": "All widgets have four white lines",
+    "Attachments": "https://bit.ly/3HfHhuL"
+}

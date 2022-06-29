@@ -1,0 +1,89 @@
+JSON
+
+1. Создать внешний репозиторий c названием JSON -
+Create a new repository JSON
+2. Клонировать репозиторий JSON на локальный компьютер.
+git clone git@github.com:viachK/JSON.git
+3. Внутри локального JSON создать файл “new.json”.
+touch "new.json"
+7. Добавить файл под гит
+git add new.json
+4. Закоммитить файл.
+git commit -m "add JSON file"
+5. Отправить файл на внешний GitHub репозиторий.
+git push
+6. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+nano new.json
+{
+        "first_name": "Viacheslav",
+        "last_name": "Kovryzhnykh",
+        "age": 38,
+        "numberOfPets": 1,
+        "desired_salary": 350
+}
+7. Отправить изменения на внешний репозиторий
+git add new.json 
+git status 
+git commit -m "update JSON file"
+git push
+8. Создать файл preferences.json
+touch "prefereces.json"
+9. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+nano preferences.json
+{
+"favourite_movie": "Matrix",
+"favourite_tv_series": "Walking_Dead",
+"favourite_food": "Pasta",
+"favourite_season": "Spring",
+"a_country_would_you_like_to_visit": "Australia"
+}
+10. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+nano skills.json
+{
+    "01": "terminal",
+    "02": "client server model",
+    "03": "GitHub",
+    "04": "API testing through Postman"
+
+}
+11. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+it commit -m "update two files"
+git push
+12. На веб интерфейсе создать файл bug_report.json.
+Add File
+Create New File
+Commit New File
+13. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Open File
+Go to The Pencil Button
+Edit This File
+Commit Changes
+14. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+Open File
+Go to The Pencil Button “Edit This File”
+
+{
+    "Bug_id": "12345",
+    "Tit1e": "Missing white lines on widgets",
+    "Severity": "Moderate",
+    "Priority": "Medium",
+    "Environment": "Xiaomi Redmi 8A, MIUI Global 12.5.2, 10 QKQ1.191014.001",
+    "Precondition": "Desktop grid 5x5, font size Medium, zoom Medium",
+    "STR": [
+        {
+            "01": "Add 5 widgets",
+            "02": "Arrange widgets as in the attachment"
+        }
+    ],
+    "AR": "Square widget on the left has a missing white bottom line. The longest widget on the right has a missing white bottom line",
+    "ER": "All widgets have four white lines",
+    "Attachments": "https://bit.ly/3HfHhuL"
+}
+
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+Open File
+Go to The Pencil Button “Edit This File”
+Commit Changes
+16. Синхронизировать внешний и локальный репозиторий JSON
+git pull
